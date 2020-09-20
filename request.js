@@ -170,7 +170,7 @@ export default class Request extends Component {
           <Text style={{fontSize: 200}} />
           <Text style={{fontSize: 200}} />
           <Text style={{fontSize: 200}} />
-          <Text style={{color: 'black', fontSize: 36}}>Request Quote</Text>
+          <Text style={{color: 'black', fontSize: 36}}>Request Info</Text>
 
           <KeyboardAvoidingView>
             <View

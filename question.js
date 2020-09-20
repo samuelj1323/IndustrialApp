@@ -24,12 +24,13 @@ export default class Question extends Component {
   clearText = () => {
     this.setState({name: '', company: '', Question: ''});
   };
+  /*
   DismissKeyboard = ({children}) => (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       {' '}
       {children}
     </TouchableWithoutFeedback>
-  );
+  );*/
   render() {
     return (
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
