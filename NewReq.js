@@ -363,10 +363,10 @@ export default class NewReq extends Component {
                     mailhost: 'smtp.gmail.com',
                     port: '465',
                     ssl: true, //if ssl: false, TLS is enabled,**note:** in iOS TLS/SSL is determined automatically, so either true or false is the same
-                    username: 'andonspecialties1323@gmail.com',
-                    password: 'gr8Db890214!',
-                    from: 'andonspecialties1323@gmail.com',
-                    recipients: 'samuelj1323@gmail.com',
+                    username: '',
+                    password: '',
+                    from: '',
+                    recipients: '',
                     bcc: [], //completely optional
                     subject:
                       'Requesting a Quote from ' +
